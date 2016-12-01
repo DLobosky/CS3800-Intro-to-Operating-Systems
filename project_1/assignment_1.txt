@@ -1,0 +1,8 @@
+Dalton Lobosky
+CS 3800 1A
+Programming Assignment 1
+
+
+1.	To fix the deadlocked program (program.c)  I made the “conditional wait” function have to check to make sure count was less than threshold in order to be called upon. I also made sure that in order for the “conditional signal” to execute; count had to be equal to the threshold.
+2.	In order to deadlock dotprod.c, all I did was make sure the mutex didn’t unlock. Simple as that. :)
+3.	The main issue that I ran into was that I did not have very much understand of the syntax for threads before starting the assignment. The other issue that I ran into was that I did not exactly know what to look for to make sure my outcomes were correct or not. Many different times did I think that I had the right answer, but they ended up being wrong. It would have been nice to know what I was looking to get as an output before starting the assignment. 
